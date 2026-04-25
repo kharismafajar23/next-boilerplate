@@ -439,8 +439,8 @@ const AppSidebar: React.FC = () => {
           isExpanded || isMobileOpen
             ? "w-[290px]"
             : isHovered
-            ? "w-[290px]"
-            : "w-[90px]"
+              ? "w-[290px]"
+              : "w-[90px]"
         }
         ${isMobileOpen ? "translate-x-0" : "-translate-x-full"}
         xl:translate-x-0`}
@@ -457,14 +457,14 @@ const AppSidebar: React.FC = () => {
             <>
               <Image
                 className="dark:hidden"
-                src="/images/logo/logo.svg"
+                src={`./images/logo/${process.env.NEXT_PUBLIC_APP_LOGO_MAIN || "logo.svg"}`}
                 alt="Logo"
                 width={150}
                 height={40}
               />
               <Image
                 className="hidden dark:block"
-                src="/images/logo/logo-dark.svg"
+                src={`/images/logo/${process.env.NEXT_PUBLIC_APP_LOGO_DARK || "logo-dark.svg"}`}
                 alt="Logo"
                 width={150}
                 height={40}
@@ -472,7 +472,7 @@ const AppSidebar: React.FC = () => {
             </>
           ) : (
             <Image
-              src="/images/logo/logo-icon.svg"
+              src={`./images/logo/${process.env.NEXT_PUBLIC_APP_LOGO_ICON || "logo-icon.svg"}`}
               alt="Logo"
               width={32}
               height={32}
