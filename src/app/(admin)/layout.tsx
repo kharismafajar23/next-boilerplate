@@ -8,6 +8,7 @@ import { AuthProvider } from "@/context/AuthContext";
 import { TenantProvider } from "@/context/TenantContext";
 import { PermissionProvider } from "@/context/PermissionContext";
 import { TenantThemeProvider } from "@/components/layout/TenantThemeProvider";
+import Providers from "../providers";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -21,17 +22,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${outfit.className} dark:bg-gray-900`}>
-        <AuthProvider>
-          <TenantProvider>
-            <PermissionProvider>
-              <ThemeProvider>
-                <TenantThemeProvider>
-                  <SidebarProvider>{children}</SidebarProvider>
-                </TenantThemeProvider>
-              </ThemeProvider>
-            </PermissionProvider>
-          </TenantProvider>
-        </AuthProvider>
+        <Providers>
+          <AuthProvider>
+            <TenantProvider>
+              <PermissionProvider>
+                <ThemeProvider>
+                  <TenantThemeProvider>
+                    <SidebarProvider>{children}</SidebarProvider>
+                  </TenantThemeProvider>
+                </ThemeProvider>
+              </PermissionProvider>
+            </TenantProvider>
+          </AuthProvider>
+        </Providers>
       </body>
     </html>
   );
