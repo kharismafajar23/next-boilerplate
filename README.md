@@ -5,6 +5,7 @@ Project ini untuk setup awal Nextjs yang memiliki halaman frontend dan halaman b
 Hal yang perlu diperhatikan adalah :
 1. Setup .env.local
 2. Setup logo logonya
+3. Contoh features sudah dituliskan di 'src/features'
 
 ## Cara Install Aplikasi
 Saat pertama kali clone, jangan lupa untuk `npm install`
@@ -16,3 +17,12 @@ Logo yang harus ada adalah :
     - logo-dark.svg -> Logo untuk tema dark
     - logo-icon.svg -> Logo yang berupa icon
     - logo.svg -> Logo utama
+
+## Pola Penulisan features
+feature/
+├── service.ts   # API call
+├── hooks.ts     # TanStack Query
+├── type.ts      # TypeScript
+├── schema.ts    # Zod (optional)
+├── store.ts    # Zustand Store
+└── components/  # UI
