@@ -1,6 +1,6 @@
-import PageBreadcrumb from "@/components/admin/common/PageBreadCrumb";
-import TicketDetails from "@/components/admin/support/TicketDetails";
-import TicketReplyContent from "@/components/admin/support/TicketReplyContent";
+import PageBreadcrumb from "@/components/common/PageBreadCrumb";
+import TicketDetails from "@/components/support/TicketDetails";
+import TicketReplyContent from "@/components/support/TicketReplyContent";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

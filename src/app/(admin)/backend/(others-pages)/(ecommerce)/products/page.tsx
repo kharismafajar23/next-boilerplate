@@ -1,5 +1,5 @@
-import PageBreadcrumb from "@/components/admin/common/PageBreadCrumb";
-import ProductListTable from "@/components/admin/ecommerce/ProductListTable";
+import PageBreadcrumb from "@/components/common/PageBreadCrumb";
+import ProductListTable from "@/components/ecommerce/ProductListTable";
 import { Metadata } from "next";
 import React from "react";
 

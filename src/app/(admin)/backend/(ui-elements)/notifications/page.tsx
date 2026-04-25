@@ -1,5 +1,5 @@
-import PageBreadcrumb from "@/components/admin/common/PageBreadCrumb";
-import NotificationExample from "@/components/admin/ui/notification/NotificationExample";
+import PageBreadcrumb from "@/components/common/PageBreadCrumb";
+import NotificationExample from "@/components/ui/notification/NotificationExample";
 import { Metadata } from "next";
 import React from "react";
 

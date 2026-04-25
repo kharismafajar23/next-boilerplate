@@ -1,4 +1,4 @@
-import ResetPasswordForm from "@/components/admin/auth/ResetPasswordForm";
+import ResetPasswordForm from "@/components/auth/ResetPasswordForm";
 import { generateMetadata } from "@/lib/metadata";
 
 import React from "react";

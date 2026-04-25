@@ -1,5 +1,5 @@
-import PageBreadcrumb from "@/components/admin/common/PageBreadCrumb";
-import TransactionList from "@/components/admin/ecommerce/TransactionList";
+import PageBreadcrumb from "@/components/common/PageBreadCrumb";
+import TransactionList from "@/components/ecommerce/TransactionList";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

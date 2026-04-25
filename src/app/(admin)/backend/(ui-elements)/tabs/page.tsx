@@ -1,9 +1,9 @@
-import ComponentCard from "@/components/admin/common/ComponentCard";
-import DefaultTab from "@/components/admin/ui/tabs/DefaultTab";
-import TabWithBadge from "@/components/admin/ui/tabs/TabWithBadge";
-import TabWithUnderline from "@/components/admin/ui/tabs/TabWithUnderline";
-import TabWithUnderlineAndIcon from "@/components/admin/ui/tabs/TabWithUnderlineAndIcon";
-import VerticalTabs from "@/components/admin/ui/tabs/VerticalTabs";
+import ComponentCard from "@/components/common/ComponentCard";
+import DefaultTab from "@/components/ui/tabs/DefaultTab";
+import TabWithBadge from "@/components/ui/tabs/TabWithBadge";
+import TabWithUnderline from "@/components/ui/tabs/TabWithUnderline";
+import TabWithUnderlineAndIcon from "@/components/ui/tabs/TabWithUnderlineAndIcon";
+import VerticalTabs from "@/components/ui/tabs/VerticalTabs";
 import { Metadata } from "next";
 import React from "react";
 

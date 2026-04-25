@@ -1,10 +1,10 @@
-import ComponentCard from "@/components/admin/common/ComponentCard";
-import PageBreadcrumb from "@/components/admin/common/PageBreadCrumb";
-import BasicTableFive from "@/components/admin/tables/BasicTables/BasicTableFive";
-import BasicTableFour from "@/components/admin/tables/BasicTables/BasicTableFour";
-import BasicTableOne from "@/components/admin/tables/BasicTables/BasicTableOne";
-import BasicTableThree from "@/components/admin/tables/BasicTables/BasicTableThree";
-import BasicTableTwo from "@/components/admin/tables/BasicTables/BasicTableTwo";
+import ComponentCard from "@/components/common/ComponentCard";
+import PageBreadcrumb from "@/components/common/PageBreadCrumb";
+import BasicTableFive from "@/components/tables/BasicTables/BasicTableFive";
+import BasicTableFour from "@/components/tables/BasicTables/BasicTableFour";
+import BasicTableOne from "@/components/tables/BasicTables/BasicTableOne";
+import BasicTableThree from "@/components/tables/BasicTables/BasicTableThree";
+import BasicTableTwo from "@/components/tables/BasicTables/BasicTableTwo";
 
 import { Metadata } from "next";
 import React from "react";

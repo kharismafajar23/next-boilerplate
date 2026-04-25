@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/context/ThemeContext";
 import { AuthProvider } from "@/context/AuthContext";
 import { TenantProvider } from "@/context/TenantContext";
 import { PermissionProvider } from "@/context/PermissionContext";
-import { TenantThemeProvider } from "@/components/admin/layout/TenantThemeProvider";
+import { TenantThemeProvider } from "@/components/layout/TenantThemeProvider";
 
 const outfit = Outfit({
   subsets: ["latin"],

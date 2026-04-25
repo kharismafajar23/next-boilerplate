@@ -1,13 +1,13 @@
-import AcquisitionChannelChart from "@/components/admin/analytics/AcquisitionChannelChart";
-import ActiveUsersChart from "@/components/admin/analytics/ActiveUsersChart";
-import AnalyticsBarChart from "@/components/admin/analytics/AnalyticsBarChart";
-import AnalyticsMetrics from "@/components/admin/analytics/AnalyticsMetrics";
-import RecentOrderAnalytics from "@/components/admin/analytics/RecentOrderAnalytics";
-import SessionChart from "@/components/admin/analytics/SessionChart";
-import TopChannel from "@/components/admin/analytics/TopChannel";
-import TopPages from "@/components/admin/analytics/TopPages";
-import DemographicCard from "@/components/admin/ecommerce/DemographicCard";
-import PageBreadcrumb from "@/components/admin/common/PageBreadCrumb";
+import AcquisitionChannelChart from "@/components/analytics/AcquisitionChannelChart";
+import ActiveUsersChart from "@/components/analytics/ActiveUsersChart";
+import AnalyticsBarChart from "@/components/analytics/AnalyticsBarChart";
+import AnalyticsMetrics from "@/components/analytics/AnalyticsMetrics";
+import RecentOrderAnalytics from "@/components/analytics/RecentOrderAnalytics";
+import SessionChart from "@/components/analytics/SessionChart";
+import TopChannel from "@/components/analytics/TopChannel";
+import TopPages from "@/components/analytics/TopPages";
+import DemographicCard from "@/components/ecommerce/DemographicCard";
+import PageBreadcrumb from "@/components/common/PageBreadCrumb";
 import { Metadata } from "next";
 import React from "react";
 

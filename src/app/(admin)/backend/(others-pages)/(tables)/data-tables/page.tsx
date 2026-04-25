@@ -1,8 +1,8 @@
-import ComponentCard from "@/components/admin/common/ComponentCard";
-import PageBreadcrumb from "@/components/admin/common/PageBreadCrumb";
-import DataTableTwo from "@/components/admin/tables/DataTables/TableTwo/DataTableTwo";
-import DataTableOne from "@/components/admin/tables/DataTables/TableOne/DataTableOne";
-import DataTableThree from "@/components/admin/tables/DataTables/TableThree/DataTableThree";
+import ComponentCard from "@/components/common/ComponentCard";
+import PageBreadcrumb from "@/components/common/PageBreadCrumb";
+import DataTableTwo from "@/components/tables/DataTables/TableTwo/DataTableTwo";
+import DataTableOne from "@/components/tables/DataTables/TableOne/DataTableOne";
+import DataTableThree from "@/components/tables/DataTables/TableThree/DataTableThree";
 
 import { Metadata } from "next";
 import React from "react";

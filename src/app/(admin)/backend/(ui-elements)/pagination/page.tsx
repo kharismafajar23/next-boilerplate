@@ -1,5 +1,5 @@
-import PageBreadcrumb from "@/components/admin/common/PageBreadCrumb";
-import PaginationExample from "@/components/admin/ui/pagination/PaginationExample";
+import PageBreadcrumb from "@/components/common/PageBreadCrumb";
+import PaginationExample from "@/components/ui/pagination/PaginationExample";
 import { Metadata } from "next";
 import React from "react";
 

@@ -1,8 +1,8 @@
-import ComponentCard from "@/components/admin/common/ComponentCard";
-import PageBreadcrumb from "@/components/admin/common/PageBreadCrumb";
-import DefaultTooltip from "@/components/admin/ui/tooltip/DefaultTooltip";
-import TooltipPlacement from "@/components/admin/ui/tooltip/TooltipPlacement";
-import WhiteAndDarkTooltip from "@/components/admin/ui/tooltip/WhiteAndDarkTooltip";
+import ComponentCard from "@/components/common/ComponentCard";
+import PageBreadcrumb from "@/components/common/PageBreadCrumb";
+import DefaultTooltip from "@/components/ui/tooltip/DefaultTooltip";
+import TooltipPlacement from "@/components/ui/tooltip/TooltipPlacement";
+import WhiteAndDarkTooltip from "@/components/ui/tooltip/WhiteAndDarkTooltip";
 import { Metadata } from "next";
 import React from "react";
 

@@ -1,8 +1,8 @@
-import PageBreadcrumb from "@/components/admin/common/PageBreadCrumb";
-import AllFolders from "@/components/admin/file-manager/AllFolders";
-import AllMediaCard from "@/components/admin/file-manager/AllMediaCard";
-import RecentFileTable from "@/components/admin/file-manager/RecentFileTable";
-import StorageDetailsChart from "@/components/admin/file-manager/StorageDetailsChart";
+import PageBreadcrumb from "@/components/common/PageBreadCrumb";
+import AllFolders from "@/components/file-manager/AllFolders";
+import AllMediaCard from "@/components/file-manager/AllMediaCard";
+import RecentFileTable from "@/components/file-manager/RecentFileTable";
+import StorageDetailsChart from "@/components/file-manager/StorageDetailsChart";
 import { Metadata } from "next";
 import React from "react";
 

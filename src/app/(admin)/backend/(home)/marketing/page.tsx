@@ -1,9 +1,9 @@
-import FeaturedCampaign from "@/components/admin/marketing/FeaturedCampaign";
-import ImpressionChart from "@/components/admin/marketing/ImpressionChart";
-import MarketingMetricsCards from "@/components/admin/marketing/MarketingMetricsCards";
-import TrafficSource from "@/components/admin/marketing/TrafficSource";
-import TrafficStats from "@/components/admin/marketing/TrafficStats";
-import PageBreadcrumb from "@/components/admin/common/PageBreadCrumb";
+import FeaturedCampaign from "@/components/marketing/FeaturedCampaign";
+import ImpressionChart from "@/components/marketing/ImpressionChart";
+import MarketingMetricsCards from "@/components/marketing/MarketingMetricsCards";
+import TrafficSource from "@/components/marketing/TrafficSource";
+import TrafficStats from "@/components/marketing/TrafficStats";
+import PageBreadcrumb from "@/components/common/PageBreadCrumb";
 import { Metadata } from "next";
 import React from "react";
 

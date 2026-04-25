@@ -1,8 +1,8 @@
-import PageBreadcrumb from "@/components/admin/common/PageBreadCrumb";
-import AngleDividerBreadCrumb from "@/components/admin/ui/breadcrumb/AngleDividerBreadCrumb";
-import BreadCrumbWithIcon from "@/components/admin/ui/breadcrumb/BreadCrumbWithIcon";
-import DefaultBreadCrumbExample from "@/components/admin/ui/breadcrumb/DefaultBreadCrumbExample";
-import DottedDividerBreadcrumb from "@/components/admin/ui/breadcrumb/DottedDividerBreadcrumb";
+import PageBreadcrumb from "@/components/common/PageBreadCrumb";
+import AngleDividerBreadCrumb from "@/components/ui/breadcrumb/AngleDividerBreadCrumb";
+import BreadCrumbWithIcon from "@/components/ui/breadcrumb/BreadCrumbWithIcon";
+import DefaultBreadCrumbExample from "@/components/ui/breadcrumb/DefaultBreadCrumbExample";
+import DottedDividerBreadcrumb from "@/components/ui/breadcrumb/DottedDividerBreadcrumb";
 import { Metadata } from "next";
 import React from "react";
 

@@ -1,7 +1,7 @@
-import PieChartOne from "@/components/admin/charts/pie/PieChartOne";
-import PieChartTwo from "@/components/admin/charts/pie/PieChartTwo";
-import ComponentCard from "@/components/admin/common/ComponentCard";
-import PageBreadcrumb from "@/components/admin/common/PageBreadCrumb";
+import PieChartOne from "@/components/charts/pie/PieChartOne";
+import PieChartTwo from "@/components/charts/pie/PieChartTwo";
+import ComponentCard from "@/components/common/ComponentCard";
+import PageBreadcrumb from "@/components/common/PageBreadCrumb";
 import { Metadata } from "next";
 import React from "react";
 

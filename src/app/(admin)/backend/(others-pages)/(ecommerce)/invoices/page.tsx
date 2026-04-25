@@ -1,6 +1,6 @@
-import PageBreadcrumb from "@/components/admin/common/PageBreadCrumb";
-import InvoiceListTable from "@/components/admin/invoice/InvoiceList";
-import InvoiceMetrics from "@/components/admin/invoice/InvoiceMetrics";
+import PageBreadcrumb from "@/components/common/PageBreadCrumb";
+import InvoiceListTable from "@/components/invoice/InvoiceList";
+import InvoiceMetrics from "@/components/invoice/InvoiceMetrics";
 import { Metadata } from "next";
 import React from "react";
 

@@ -1,4 +1,4 @@
-import SignInForm from "@/components/admin/auth/SignInForm";
+import SignInForm from "@/components/auth/SignInForm";
 import { generateMetadata } from "@/lib/metadata";
 
 export const metadata = generateMetadata({

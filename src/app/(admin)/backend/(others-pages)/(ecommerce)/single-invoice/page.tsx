@@ -1,4 +1,4 @@
-import InvoiceMain from "@/components/admin/invoice/InvoiceMain";
+import InvoiceMain from "@/components/invoice/InvoiceMain";
 import { Metadata } from "next";
 import React from "react";
 

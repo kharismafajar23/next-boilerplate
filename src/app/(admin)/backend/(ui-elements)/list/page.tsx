@@ -1,12 +1,12 @@
-import ComponentCard from "@/components/admin/common/ComponentCard";
-import PageBreadcrumb from "@/components/admin/common/PageBreadCrumb";
-import HorizontalList from "@/components/admin/ui/list/HorizontalList";
-import ListWithButton from "@/components/admin/ui/list/ListWithButton";
-import ListWithCheckbox from "@/components/admin/ui/list/ListWithCheckbox";
-import ListWithIcon from "@/components/admin/ui/list/ListWithIcon";
-import ListWithRadio from "@/components/admin/ui/list/ListWithRadio";
-import OrderedList from "@/components/admin/ui/list/OrderedList";
-import UnOrderedList from "@/components/admin/ui/list/UnorderedList";
+import ComponentCard from "@/components/common/ComponentCard";
+import PageBreadcrumb from "@/components/common/PageBreadCrumb";
+import HorizontalList from "@/components/ui/list/HorizontalList";
+import ListWithButton from "@/components/ui/list/ListWithButton";
+import ListWithCheckbox from "@/components/ui/list/ListWithCheckbox";
+import ListWithIcon from "@/components/ui/list/ListWithIcon";
+import ListWithRadio from "@/components/ui/list/ListWithRadio";
+import OrderedList from "@/components/ui/list/OrderedList";
+import UnOrderedList from "@/components/ui/list/UnorderedList";
 import { Metadata } from "next";
 import React from "react";
 

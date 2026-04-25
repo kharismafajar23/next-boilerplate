@@ -1,6 +1,6 @@
-import ChatBox from "@/components/admin/chats/ChatBox";
-import ChatSidebar from "@/components/admin/chats/ChatSidebar";
-import PageBreadcrumb from "@/components/admin/common/PageBreadCrumb";
+import ChatBox from "@/components/chats/ChatBox";
+import ChatSidebar from "@/components/chats/ChatSidebar";
+import PageBreadcrumb from "@/components/common/PageBreadCrumb";
 import { Metadata } from "next";
 import React from "react";
 

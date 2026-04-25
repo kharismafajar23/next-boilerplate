@@ -1,8 +1,8 @@
-import ComponentCard from "@/components/admin/common/ComponentCard";
-import PageBreadcrumb from "@/components/admin/common/PageBreadCrumb";
-import DefaultPopover from "@/components/admin/ui/popover/DefaultPopover";
-import PopoverButton from "@/components/admin/ui/popover/PopoverButton";
-import PopoverWithLink from "@/components/admin/ui/popover/PopoverWithLink";
+import ComponentCard from "@/components/common/ComponentCard";
+import PageBreadcrumb from "@/components/common/PageBreadCrumb";
+import DefaultPopover from "@/components/ui/popover/DefaultPopover";
+import PopoverButton from "@/components/ui/popover/PopoverButton";
+import PopoverWithLink from "@/components/ui/popover/PopoverWithLink";
 import { Metadata } from "next";
 import React from "react";
 

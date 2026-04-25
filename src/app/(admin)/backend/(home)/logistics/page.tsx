@@ -1,11 +1,11 @@
-import DeliveryActivityTable from "@/components/admin/logistics/DeliveriesActivityTable";
-import DeliveryMan from "@/components/admin/logistics/DeliveryMan";
-import DeliveryStatisticsChart from "@/components/admin/logistics/DeliveryStatisticsChart";
-import DeliveryVehicle from "@/components/admin/logistics/DeliveryVehicle";
-import LogisticsMetrics from "@/components/admin/logistics/LogisticsMetrics";
-import RevenueEarnedChart from "@/components/admin/logistics/RevenueEarnedChart";
-import TrackingDeliveryMap from "@/components/admin/logistics/TrackingDeliveryMap";
-import TrackingProgress from "@/components/admin/logistics/TrackingProgress";
+import DeliveryActivityTable from "@/components/logistics/DeliveriesActivityTable";
+import DeliveryMan from "@/components/logistics/DeliveryMan";
+import DeliveryStatisticsChart from "@/components/logistics/DeliveryStatisticsChart";
+import DeliveryVehicle from "@/components/logistics/DeliveryVehicle";
+import LogisticsMetrics from "@/components/logistics/LogisticsMetrics";
+import RevenueEarnedChart from "@/components/logistics/RevenueEarnedChart";
+import TrackingDeliveryMap from "@/components/logistics/TrackingDeliveryMap";
+import TrackingProgress from "@/components/logistics/TrackingProgress";
 import { Metadata } from "next";
 import React from "react";
 
